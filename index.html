@@ -39,12 +39,13 @@
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" name="phone-contact" id="phone" class="form-control" placeholder="Phone Number">
+                        <input type="text" name="phone-contact" id="phone" class="form-control" placeholder="Telephone xxx-xxx-xxx"
+                        pattern="\d{3}[\-]\d{3}[\-]\d{4}">
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <select class="custom-select" name="reference">
+                        <select class="custom-select" name="reference-contact" id="reference">
                           <option selected>How Did You Hear About Us</option>
                           <option value="google">Google</option>
                           <option value="friend">Friend</option>
@@ -90,8 +91,6 @@
         </div>
       </div>
     </section>
-
-
 
   <script src="script.js" async></script>
   </body>
