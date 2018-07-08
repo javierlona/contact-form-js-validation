@@ -16,7 +16,7 @@
     </div>
 
     <!-- CONTACT SECTION -->
-    <section id="contact" class="py-3">
+    <section class="py-3">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -24,6 +24,7 @@
               <div class="card-body">
                 <h3 class="text-center">Please fill out this form to contact us</h3>
                 <hr>
+                <form class="" id="contact-form" name=contact-form"" action="" method="post">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -42,7 +43,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <select class="custom-select" name="">
+                      <select class="custom-select" name="reference">
                         <option selected>How Did You Hear About Us</option>
                         <option value="">Google</option>
                         <option value="">Friend</option>
@@ -57,15 +58,15 @@
                     <label for="">What Is The Best Way to Reach You?</label>
                     <div class="form-group">
                       <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                        <input type="radio" id="customRadioInline1" name="response-method" class="custom-control-input">
                         <label class="custom-control-label" for="customRadioInline1">Email</label>
                       </div>
                       <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                        <input type="radio" id="customRadioInline2" name="response-method" class="custom-control-input">
                         <label class="custom-control-label" for="customRadioInline2">Phone Call</label>
                       </div>
                       <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                        <input type="radio" id="customRadioInline3" name="response-method" class="custom-control-input">
                         <label class="custom-control-label" for="customRadioInline3">Snail Mail</label>
                       </div>
                     </div>
@@ -81,6 +82,7 @@
                     <input type="submit" class="btn btn-outline-danger btn-block">
                   </div>
                 </div>
+              </form>
               </div>
             </div>
           </div>
