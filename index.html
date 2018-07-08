@@ -24,65 +24,66 @@
               <div class="card-body">
                 <h3 class="text-center">Please fill out this form to contact us</h3>
                 <hr>
-                <form class="" id="contact-form" name=contact-form"" action="" method="post">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name">
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email">
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Phone Number">
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <select class="custom-select" name="reference">
-                        <option selected>How Did You Hear About Us</option>
-                        <option value="">Google</option>
-                        <option value="">Friend</option>
-                        <option value="">Advertisment</option>
-                        <option value="">Other</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <label for="">What Is The Best Way to Reach You?</label>
-                    <div class="form-group">
-                      <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline1" name="response-method" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline1">Email</label>
+                <form class="" id="contact-form" name="contact-form" action="" method="post">
+                  <div class="alert alert-danger" role="alert"></div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" name="name-contact" id="name" class="form-control" placeholder="Name">
                       </div>
-                      <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline2" name="response-method" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline2">Phone Call</label>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" name="email-contact" id="email" class="form-control" placeholder="Email">
                       </div>
-                      <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline3" name="response-method" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline3">Snail Mail</label>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" name="phone-contact" id="phone" class="form-control" placeholder="Phone Number">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <select class="custom-select" name="reference">
+                          <option selected>How Did You Hear About Us</option>
+                          <option value="google">Google</option>
+                          <option value="friend">Friend</option>
+                          <option value="advertisment">Advertisment</option>
+                          <option value="other">Other</option>
+                        </select>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea class="form-control" placeholder="Message"></textarea>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label for="">What Is The Best Way to Reach You?</label>
+                      <div class="form-group">
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="customRadioInline1" name="response-method" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadioInline1">Email</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="customRadioInline2" name="response-method" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadioInline2">Phone Call</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="customRadioInline3" name="response-method" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadioInline3">Snail Mail</label>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <input type="submit" class="btn btn-outline-danger btn-block">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea class="form-control" placeholder="Message"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <input type="submit" class="btn btn-outline-danger btn-block">
+                    </div>
                   </div>
-                </div>
-              </form>
+                </form>
               </div>
             </div>
           </div>
