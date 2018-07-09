@@ -1,3 +1,4 @@
+// Create constant variable for our form
 const THEFORM = document.querySelector('#contact-form');
 
 THEFORM.addEventListener('submit', check_form);
@@ -14,6 +15,7 @@ var validationInfo = {
   },
 };
 
+// Position the new alert above the form
 var newDiv = document.createElement('div');
 newDiv.className = 'alert alert-danger d-none';
 THEFORM.append(newDiv);
