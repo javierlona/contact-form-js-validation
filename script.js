@@ -50,6 +50,7 @@ for (key in inputFields) {
   let theFields = inputFields[key];
   // Anonymous function run when a change occurs
   theFields.onchange = function() {
+    // Grab that fields pattern and placeholder attributes
     let myPattern = this.pattern;
     let myPlaceholder = this.placeholder;
     // 0 indicates pattern is a match
